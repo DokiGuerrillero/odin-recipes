@@ -1,7 +1,7 @@
 html {
     background-image: url(../Assets/img/Kitchen.jpg);
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
 }
 div {
     margin: 10px 5em 30px 5em;
@@ -40,27 +40,36 @@ p {
 }
 aside {
     width: 102vw;
-    margin: 20px 1.2vw -10vw -1.2vw;
-    height: 35vw;
-    background-color: rgb(34, 34, 34);
+    margin: 20px 1.2vw 0vw -1.2vw;
+    height: 31.8vw;
+    background-color: rgba(8, 8, 8, 0.959);
     color: rgb(27, 27, 27);
-    border-top: 40px solid rgb(27, 27, 27);
 }
 ul {
+    padding-top: 80px;
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(0, 0, 0);
 }
 .li {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 30vw;
     background-color: white;
     border: white solid 5px;
-    border-radius: 20px;
+    border: 6px double;
+    border-radius: 35px;
     color: rgb(37, 37, 37);
     margin-top: 20px;
     margin-left: 30vw;
+    text-decoration: none;
+}
+.li:nth-child(1) {
+    margin-top: -50px;
+}
+img {
+    height: 70px;
+    width: 90px;
 }
