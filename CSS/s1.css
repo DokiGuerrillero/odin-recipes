@@ -1,0 +1,43 @@
+html {
+    background-image: url(https://preview.redd.it/yt4tsdvs1dz71.png?width=960&crop=smart&auto=webp&s=996132499e1632392b5ac229e06dce3b81ccdb83);
+
+}
+body {
+    text-align: center;
+    background-color: white;
+    background-image: url(https://static.wikia.nocookie.net/villains/images/f/f1/Viktor_Render.png/revision/latest?cb=20200708073024);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 70vw;
+    height: 230vh;
+    margin-left: 15vw;
+}
+img {
+    border: 50px groove rgb(73, 12, 12);
+    margin-bottom: 2.5vw;
+    margin-top: 1.5vw;
+}
+ol li, ul li {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: greenyellow;
+}
+ol li:last-child {
+    margin-bottom: 5vw;
+}
+h1 {
+    background-color: honeydew;
+    font-size: 80px;
+}
+
+h3 {
+    background-color: honeydew;
+    font-size: 60px;
+}
+p {
+    background-color: hotpink;
+    font-size: 29px;
+}
+a, em {
+    background-color: indigo;
+    color: white;
+    padding: 20px 50px 20px 50px;
+}
